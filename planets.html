@@ -1,0 +1,246 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>planets</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/fwslider.css" media="all">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/css3-mediaqueries.js"></script>
+    <script src="js/fwslider.js"></script>
+<script type="text/javascript" src="js/jquery-hover-effect.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+jQuery(function() {
+	jQuery('ul.da-thumbs > li').hoverdir();
+});
+});
+</script>
+<!-- Add fancyBox main JS and CSS files -->
+<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+<link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+		<script>
+			$(document).ready(function() {
+				$('.popup-with-zoom-anim').magnificPopup({
+					type: 'inline',
+					fixedContentPos: false,
+					fixedBgPos: true,
+					overflowY: 'auto',
+					closeBtnInside: true,
+					preloader: false,
+					midClick: true,
+					removalDelay: 300,
+					mainClass: 'my-mfp-zoom-in'
+			});
+		});
+		</script>
+<!--nav-->
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+</script>
+<style>
+.div1{border:1px solid #000}
+</style>
+</head>
+<body>
+<div class="header_bg">
+<div class="wrap">
+	<div class="header">
+		<div class="logo">
+			<a href="index.html"><img src="images/logo.png"  width="134" height="60"/></a>
+		</div>		
+	<div class="cssmenu">
+		<ul>
+		   <li class="active"><a href="index.html">Home</a></li>
+		   <li><a href="planets.html">planets</a></li>
+           <li class="last"><a href="more.html">more</a></li>
+		 
+		 <div class="clear"></div>
+	    </ul>
+	</div>
+		<div class="clear"></div>
+		<div class="top-nav">
+		<nav class="clearfix">
+				<ul>
+		   <li class="active"><a href="index.html">Home</a></li>
+		   <li><a href="planets.html">planets</a></li>
+           <li class="last"><a href="more.html">more</a></li>
+				</ul>
+				<a href="#" id="pull">Menu</a>			</nav>
+		</div>
+	<div class="clear"></div>
+	</div>
+</div>
+</div>
+    <div id="fwslider">
+        <div class="slider_container">
+            
+            <div class="slide">
+                <img src="images/slider11.jpg" height="300">
+                
+            </div>
+        </div>
+       
+    </div>
+    <!--/slider -->
+<!-- start mian -->
+<div class="main_bg">
+<div class="main_bg">
+<div class="wrap">
+	<div class="main">
+		<div class="blog">
+						
+			<div class="blog_list">
+				<h2 class="style"><a href="a.html" style="color:#000000">Mercury</a></h2>
+				<h5>Terrestrial Planets, <a>DIA.：4878 km</a></h5>
+				<div class="blog_para">
+					<p class="para">
+						<a class="popup-with-zoom-anim">
+							<img src="images/1.jpeg" alt="the image of Mercury" width="369" height="220">
+						</a>
+						Mercury is the planet closest to the Sun. Not that close though. It is 36 million miles, or 58 million kilometres away from the Sun. What to learn more? Click the name!
+					</p>
+					
+					<div class="clear"></div>
+				</div>
+			 </div>
+			<div class="blog_list">
+				<h2 class="style"><a href="b.html" style="color:#000000">Venus</a></h2>
+				<h5>
+						One of the eight planets, <a>DIA.：12103.6 km</a>
+				</h5>
+				<div class="blog_para">
+					<p class="para">
+						<a class="popup-with-zoom-anim">
+							<img src="images/2.jpg" alt="the image of Venus" width="369" height="240">
+						</a>
+						Venus is the brightest planet in the Solar System and it even can be seen during daylight if you look up to the sky.
+					</p>
+					
+				</div>
+			   <div class="clear"></div>				
+			 </div>
+			<div class="blog_list">
+				<h2 class="style"><a href="c.html" style="color:#000000">Earth</a></h2>
+				<h5>planet, <a>DIA.：12756 km</a></h5>
+				<div class="blog_para">
+					<p class="para">
+						<a class="popup-with-zoom-anim">
+							<img src="images/3.jpg" alt="the image of Earth" width="369" height="240">
+						</a>
+						The Earth is a very different planet in the Solar System compared to other planets. 
+							<li>It is the only planet has liquid water on its surface.</li>
+							<li>It is the only planet has life.</li>
+							<li>It is the only planet has oxygen.</li>
+							<li>...</li>
+					</p>
+		</div>
+			   <div class="clear"></div>				
+			 </div>		 
+			 <div class="blog_list">
+				<h2 class="style"><a href="d.html" style="color:#000000">Mars</a></h2>
+				<h5>Terrestrial planets, <a>DIA.：6794 km</a></h5>
+				<div class="blog_para">
+					<p class="para">
+						<a class="popup-with-zoom-anim">
+							<img src="images/4.jpg" alt="the image of Mars" width="369" height="240">
+						</a>
+						The Mars, the Red Planet, the fourth planet from the sun, is a home to a red tint instead of blue and green.
+					</p>
+		</div>
+			   <div class="clear"></div>				
+			 </div>	
+			 
+			 
+			 <div class="blog_list">
+				<h2 class="style"><a href="e.html" style="color:#000000">Jupiter</a></h2>
+				<h5>Terrestrial planets , <a>DIA.：142984 km</a></h5>
+				<div class="blog_para">
+					<p class="para"><a class="popup-with-zoom-anim"><img src="images/5.jpg" alt="the image of Jupiter" width="369" height="240"></a>
+						Jupiter is the fifth planet from the Sun and the largest in the Solar System. 
+						It is a giant planet with a mass one-thousandth that of the Sun.
+					</p>
+		</div>
+			   <div class="clear"></div>				
+			 </div>		 
+		
+			 <div class="blog_list">
+				<h2 class="style"><a href="f.html" style="color:#000000">Saturn</a></h2>
+				<h5>Gaseous giant planet , <a>DIA.：120540 km</a></h5>
+				<div class="blog_para">
+					<p class="para"><a class="popup-with-zoom-anim"><img src="images/6.jpg" alt="the image of Saturn" width="369" height="240"></a>
+						Saturn is the sixth planet from the Sun of Earth.
+						Saturn is named after the Roman god of agriculture; its astronomical symbol (♄) represents the god's sickle.
+						It has a "ring" by side.
+					</p>
+		</div>
+			   <div class="clear"></div>				
+			 </div>		 
+			 
+			 
+			 
+			 <div class="blog_list">
+				<h2 class="style"><a href="g.html" style="color:#000000">Uranus</a></h2>
+				<h5>planets , <a>DIA.：51118 km</a></h5>
+				<div class="blog_para">
+					<p class="para"><a class="popup-with-zoom-anim"><img src="images/7.jpg" alt="the image of Uranus" width="369" height="220"></a>
+						Uranus cannot be seen from the Earth without a telescope.
+					</p>
+		</div>
+			   <div class="clear"></div>				
+			 </div>		
+			 <div class="blog_list">
+				<h2 class="style"><a href="h.html" style="color:#000000">Neptune</a></h2>
+				<h5>planets , <a>DIA.：49,532 km</a></h5>
+				<div class="blog_para">
+					<p class="para"><a class="popup-with-zoom-anim"><img src="images/8.jpg" alt="the image of Neptune" width="369" height="240"></a>
+						Same as Uranus, Neptune cannot been seen without a telescope either.
+					</p>
+		</div>
+			   <div class="clear"></div>				
+			 </div>		 
+			 
+			 
+			 	 
+			</div>
+		</div>
+</div>
+</div>
+</div>
+
+
+<!-- start footer  -->
+<div class="footer_bg">
+<div class="wrap">
+	<div class="footer">
+		
+		<div class="footer_btm">
+			
+		<div class="copy">
+			<p class="w3-link">Copyright &copy; 2019.HAPPY planets  All rights reserved.</p>
+		</div>
+	</div>
+	</div>
+</div>
+</div>
+
+</body>
+</html>

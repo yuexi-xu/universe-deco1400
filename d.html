@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Mars</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/fwslider.css" media="all">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/css3-mediaqueries.js"></script>
+    <script src="js/fwslider.js"></script>
+<script type="text/javascript" src="js/jquery-hover-effect.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+jQuery(function() {
+	jQuery('ul.da-thumbs > li').hoverdir();
+});
+});
+</script>
+<!-- Add fancyBox main JS and CSS files -->
+<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+<link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+		<script>
+			$(document).ready(function() {
+				$('.popup-with-zoom-anim').magnificPopup({
+					type: 'inline',
+					fixedContentPos: false,
+					fixedBgPos: true,
+					overflowY: 'auto',
+					closeBtnInside: true,
+					preloader: false,
+					midClick: true,
+					removalDelay: 300,
+					mainClass: 'my-mfp-zoom-in'
+			});
+		});
+		</script>
+<!--nav-->
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+</script>
+</head>
+<body>
+<div class="header_bg">
+<div class="wrap">
+	<div class="header">
+		<div class="logo">
+			<a href="index.html"><img src="images/logo.png"  width="134" height="60"/></a>
+		</div>		
+	<div class="cssmenu">
+		<ul>
+		   <li class="active"><a href="index.html">Home</a></li>
+		   <li><a href="planets.html">planets</a></li>
+           <li class="last"><a href="more.html">more</a></li>
+		 
+		 <div class="clear"></div>
+	    </ul>
+	</div>
+		<div class="clear"></div>
+		<div class="top-nav">
+		<nav class="clearfix">
+				<ul>
+		   <li class="active"><a href="index.html">Home</a></li>
+		   <li><a href="planets.html">planets</a></li>
+           <li class="last"><a href="more.html">more</a></li>
+				</ul>
+				<a href="#" id="pull">Hi</a>
+			</nav>
+		</div>
+	<div class="clear"></div>
+	</div>
+</div>
+</div>
+       <div id="fwslider">
+        <div class="slider_container">
+            
+            <div class="slide">
+                <img src="images/slider11.jpg" height="300">
+                
+            </div>
+        </div>
+       
+    </div>
+    <!--/slider -->
+<!-- start testimonial  -->
+<div class="products_bg">
+<div class="wrap">
+	<div class="products">
+		
+						 <h1 style="font-size:44px" align="left"><strong>Mars</strong></h1>
+		                <p>&nbsp;</p>
+						<p>&nbsp;</p>
+						<h1 style="font-size:24px" align="left">
+							The Red Planet, as Mars is often called, is the fourth planet from the sun (Earth is the third). In a lot of ways, Mars looks a lot like our home, though instead of blue oceans and green land, Mars is home to an ever present red tint. This is due to a mineral called iron oxide that is very common on the planet’s surface. However, when you look past the surface differences, these two planets are similar in a lot of ways. Here are just a few:
+						</h1>
+
+		                <p>&nbsp;</p>
+						<p>&nbsp;</p>
+						<h1 style="font-size:24px" align="left">
+							<li>Polar Ice Caps – Mars has both North and South polar ice caps, much like Earth. Also like Earth, both ice caps are made mostly of frozen water. With so much water frozen in the ice caps of Mars, some scientists think that life could have once existed there. </li>
+							<li>Length of a Year – Mars is not much farther from the Sun than Earth. As a result, a typical year on Mars is 1 year and 687 days. </li>
+							<li>Length of a Day – While a year on Mars might be almost twice as long as a year on Earth, the length of a day there is almost identical. A Martian day is 24 hours and 39 minutes long, less than an hour longer than a day on Earth.</li>
+							<li>Seasons – Mars has seasons like Earth too. These seasons are much longer than Earth seasons because Mars is so much farther from the sun. And don’t get your swim suits out just yet – the average high during a Martian summer day is 23 degrees F (-5 degrees C) – not exactly beach weather. </li>
+						</h1>
+
+						<p style="font-size:24px" align="left">&nbsp;</p>
+						<h1 style="font-size:24px" align="left">
+							The surface of Mars is filled with exciting locations.
+						</h1>
+												
+
+						<h1 style="font-size:24px" align="left">&nbsp;</h1>
+						<h1 style="font-size:24px" align="left">
+							Mars is covered by craters from objects like asteroids and meteorites hitting the planet. Today, 43,000 such craters have been found.
+						</h1>
+						
+						<h1 style="font-size:24px" align="left">&nbsp;</h1>
+						<h1 style="font-size:24px" align="left"><img src="images/PIA00407-16.jpg" alt="the image of Mars" ></h1>
+					
+						
+	</div>
+				</div>
+			</div>
+			
+
+<!-- start footer  -->
+<div class="footer_bg">
+<div class="wrap">
+	<div class="footer">
+		
+		<div class="footer_btm">
+			
+		<div class="copy">
+			<p class="w3-link">Copyright &copy; 2019.XYX  All rights reserved.</p>
+		</div>
+	</div>
+	</div>
+</div>
+</div>
+
+</body>
+</html>

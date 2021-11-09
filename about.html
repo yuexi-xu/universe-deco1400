@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <!DOCTYPE HTML>
+<html>
+<head>
+<title>About</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/fwslider.css" media="all">
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/css3-mediaqueries.js"></script>
+<script src="js/fwslider.js"></script>
+<script type="text/javascript" src="js/jquery-hover-effect.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+jQuery(function() {
+	jQuery('ul.da-thumbs > li').hoverdir();
+});
+});
+</script>
+<!-- Add fancyBox main JS and CSS files -->
+<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+<link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+<script>
+			$(document).ready(function() {
+				$('.popup-with-zoom-anim').magnificPopup({
+					type: 'inline',
+					fixedContentPos: false,
+					fixedBgPos: true,
+					overflowY: 'auto',
+					closeBtnInside: true,
+					preloader: false,
+					midClick: true,
+					removalDelay: 300,
+					mainClass: 'my-mfp-zoom-in'
+			});
+		});
+		</script>
+<!--nav-->
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+</script>
+<style>
+.div1{border:1px solid #000}
+</style>
+</head>
+<body>
+<div class="header_bg">
+  <div class="wrap">
+    <div class="header">
+      <div class="logo"> <a href="index.html"><img src="images/logo.png"  width="134" height="60"/></a> </div>
+      <div class="cssmenu">
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="planets.html">planets</a></li>
+          <li class="last"><a href="more.html">more</a></li>
+          <div class="clear"></div>
+        </ul>
+      </div>
+      <div class="clear"></div>
+      <div class="top-nav">
+        <nav class="clearfix">
+          <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="planets.html">planets</a></li>
+            <li class="last"><a href="more.html">more</a></li>
+          </ul>
+          <a href="#" id="pull">hi</a> </nav>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+<div id="fwslider">
+  <div class="slider_container">
+    <div class="slide"> <img src="images/slider11.jpg" height="300"> </div>
+  </div>
+</div>
+<!--/slider -->
+<!-- start mian -->
+    <div class = "main">
+        <h2 class="style">
+            <a style="color:#000000">
+                Reference:
+            </a>
+            <p>&nbsp;</p>
+            <h1 style="font-size:24px" align="left">
+                <p text-font= 16px>
+                    <li>Reddit.com. . Another cool astronaut wallpaper : iphonewallpapers. [online] Available at: https://www.reddit.com/r/iphonewallpapers/comments/9ijx23/another_cool_astronaut_wallpaper/ .</li>
+                    <li>IMDb.. The Wandering Earth (2019) - IMDb. [online] Available at: https://www.imdb.com/title/tt7605074/ .</li>
+                    <li>Anon, . [image] Available at: http://www.alearningfamily.com/main/mercury-small-but-really-hot-stuff/ </li>
+                    <li>Anon,. [image] Available at: https://futurism.com/understanding-our-hellish-twin-nasa-investigates-holes-on-venus.</li>
+                    <li>Anon,. [image] Available at: https://en.wikipedia.org/wiki/Phases_of_Venus.</li>
+                    <li>Mars [image].https://www.jpl.nasa.gov/news/news.php?feature=5470. . </li>
+                    <li>Anon,. [image] Available at: http://www.sci-news.com/space/secrets-beneath-jupiters-cloud-tops-04461.html </li>
+                    <li>Anon, . [image] Available at: https://www.universetoday.com/106062/what-is-the-milky-way-2/</li>
+                    <li>Anon,. [image] Available at: https://time.com/5566225/first-black-hole-picture-photo/ .</li>
+                    <li>En.wikipedia.org.. The Wandering Earth. [online] Available at: https://en.wikipedia.org/wiki/The_Wandering_Earth.</li>
+                    <li>Inverse.. Could 'The Wandering Earth' Actually Happen? Here's What a NASA Engineer Says. [online] Available at: https://www.inverse.com/article/54103-could-the-wandering-earth-movie-plot-actually-happen .</li>
+                    <li>Anon, . [video] Available at: https://www.youtube.com/watch?v=c8LAwozrXPo .</li>
+                    <li>Google.com.. planets - Google Search. [online] Available at: https://www.google.com/search?q=planets&rlz=1C5CHFA_enAU796AU797&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiSu6PSqd_iAhXOb30KHVQ7AyQQ_AUIECgB&biw=708&bih=592&dpr=2 .</li>
+                    <li>En.wikipedia.org.. Planet. [online] Available at: https://en.wikipedia.org/wiki/Planet.</li>
+                </p>
+            </h1>
+        </h2>
+    </div>
+    <!-- start footer  -->
+<div class="footer_bg">
+  <div class="wrap">
+    <div class="footer">
+      <div class="footer_btm">
+        <div class="copy">
+          <p class="w3-link">
+            Welcome to the universe again.<br>
+            Copyright &copy; 2019.XYX  All rights reserved.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
